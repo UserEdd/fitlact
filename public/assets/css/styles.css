@@ -1,0 +1,136 @@
+/* Variables - var() */
+
+:root{
+    --color-yellow: rgb(255, 195, 0);
+    --color-white: rgb(255, 255, 255);
+    --color-blue: rgb(78, 107, 224);
+    --color-blue-hover: rgb(40, 77, 222);
+}
+
+/* Reseteo */ 
+
+html,
+body{
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    margin: 0;
+}
+
+/* Clases Minimalistas */
+
+.bg-blue{
+    background-color: var(--color-blue);
+}
+
+.c-blue{
+    color: var(--color-blue) ;
+}
+
+.c-white{
+    color: var(--color-white) ;
+}
+
+.fw-600{
+    font-weight: 600 !important;
+}
+
+/* Navbar */
+
+.navbar{
+    position: sticky !important;
+    top: 0;
+}
+
+/* Logo */
+
+.logo__img{
+    width: 40px;
+}
+
+.logo__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo__text{
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.logo__text p{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600 !important;
+}
+
+.btn-start{
+    background-color: var(--color-blue);
+    padding: 1rem;
+    font-weight: 600 !important;
+    color: var(--color-white);
+    text-decoration: none;
+    border-radius: 0.2rem;
+    transition: background-color 0.3s linear;
+}
+
+.btn-start:hover{
+    background-color: var(--color-blue-hover);
+    color: var(--color-white);
+}
+
+.rounded-circle{
+    width: 70%;
+}
+
+.container__img{
+    width: 100%;
+    border-radius: 50%;
+    background-color: var(--color-blue);
+}
+
+.container__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container-items{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.option{
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 1rem;
+    box-shadow: 0 0 1rem #eee;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.option-img{
+    max-width: 50px;
+}
+
+.option-text{
+    margin-left: 1rem;
+    color: #444;
+}
+
+.back-page{
+    text-decoration: none;
+    color: #444;
+}
+
+.empezar-title{
+    font-size: 1.4rem;
+    font-variant: small-caps;
+}
